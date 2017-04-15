@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Code+Pro:300');
+*{
+	margin: 0px;
+	font-family: "Open Sans Condensed";
+}
+body{
+	color: white;
+	background-color: black
+}
+nav{
+	height: 40px;
+	margin: 0px;
+	background-color: #d0d4db;
+}
+button {
+    background-color: #d0d4db; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	height: 30px;
+	width: 50px;
+	float: left;
+	margin: 5px;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button:hover{
+	background-color: #b9c3ca;
+	cursor: pointer;
+}
+.logo{
+	float: left;
+	margin: 5px;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+}
+.logo:hover{
+	cursor: pointer;
+}
